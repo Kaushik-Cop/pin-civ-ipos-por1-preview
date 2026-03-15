@@ -1,4 +1,4 @@
-'''A monolithic and poorly written tic-tac-toe for you to refactor.'''
+
 # Game state
 p1 = "X"
 p2 = "O"
@@ -25,6 +25,7 @@ while True:
     # Check for tie
     if empty not in board:
         print("It's a tie!")
+
         exit(0)
 
     # Get next move
